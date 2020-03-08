@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru Ecommerce Application Test Automation Suite">
+  <test name="Functional">
+    <classes>
+      <class name="com.guruEcommerce.qa.testcases.mobilePageTest"/>
+      <class name="com.guruEcommerce.qa.testcases.cartPageTest"/>
+      <class name="com.guruEcommerce.qa.testcases.compareProductPageTest"/>
+      <class name="com.guruEcommerce.qa.testcases.xperiaDetailPageTest"/>
+      <class name="com.guruEcommerce.qa.testcases.homePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

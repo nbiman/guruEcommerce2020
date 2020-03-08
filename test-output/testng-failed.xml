@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru Ecommerce Application Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.guruEcommerce.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Functional(failed)">
+    <classes>
+      <class name="com.guruEcommerce.qa.testcases.cartPageTest">
+        <methods>
+          <include name="verifyDisplayErrorMessage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.guruEcommerce.qa.testcases.cartPageTest -->
+    </classes>
+  </test> <!-- Functional(failed) -->
+</suite> <!-- Failed suite [Guru Ecommerce Application Test Automation Suite] -->

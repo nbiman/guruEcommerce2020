@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru Ecommerce Application Test Automation Suite">
+
+	<listeners>
+		<listener class-name="com.guruEcommerce.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+  <test name="Functional">
+    <classes>
+      <class name="com.guruEcommerce.qa.testcases.homePageTest"/>
+      <class name="com.guruEcommerce.qa.testcases.mobilePageTest"/>
+      <class name="com.guruEcommerce.qa.testcases.xperiaDetailPageTest"/>
+      <class name="com.guruEcommerce.qa.testcases.cartPageTest"/>
+      <class name="com.guruEcommerce.qa.testcases.compareProductPageTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
